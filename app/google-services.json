@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94282491667",
+    "project_id": "todolist-5ecc4",
+    "storage_bucket": "todolist-5ecc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94282491667:android:8438a983445563212a5ce6",
+        "android_client_info": {
+          "package_name": "com.example.miquido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94282491667-3k1pvf0edbqokugd8b1ir7dhvipdlu4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSVnteF0F9Om27OYLzYkzmOZFBWT5Dxpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94282491667-3k1pvf0edbqokugd8b1ir7dhvipdlu4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
