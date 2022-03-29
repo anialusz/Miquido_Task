@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextViewTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="TextViewDescription" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="TextViewTimeStamp" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="InputEditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/pink_200</item>
+    </style>
+</resources>
