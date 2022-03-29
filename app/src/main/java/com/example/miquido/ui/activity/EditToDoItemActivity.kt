@@ -34,7 +34,7 @@ class EditToDoItemActivity : AppCompatActivity() {
         binding.btnAddItem.setOnClickListener {
             addToDoItemViewModel.addOrUpdateItem(
                 createToDoItemToSend(),
-                intent.getStringExtra(id).toString()
+                intent.getStringExtra(id)
             )
             finish()
         }

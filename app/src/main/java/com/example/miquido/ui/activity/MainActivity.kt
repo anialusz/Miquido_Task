@@ -92,6 +92,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun itemOnClick(currentToDoItem: ToDoItem) {
         val intent = Intent(this, EditToDoItemActivity()::class.java)
+        intent.putExtra("id", currentToDoItem.id)
         intent.putExtra("title", currentToDoItem.title)
         intent.putExtra("description", currentToDoItem.description)
         intent.putExtra("icon", currentToDoItem.icon)
